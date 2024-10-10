@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+@keyframes color-change {
+    0% {
+      color: blueviolet;
+    }
+  
+    50% {
+      color: rgb(55, 0, 117);
+    }
+  
+    100% {
+      color: blueviolet;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite; 
+}
+
+img:hover {
+    transform: scale(1.5) 0.5s;
+}
+
+p {
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+}
